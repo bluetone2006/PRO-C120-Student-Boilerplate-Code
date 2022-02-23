@@ -1,13 +1,11 @@
 # Text Data Preprocessing Lib
 import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
+
 from nltk.stem import PorterStemmer
 stemmer = PorterStemmer()
 import json
 import pickle
 import numpy as np
-import random
 
 words=[] #list of unique roots words in the data
 classes = [] #list of unique tags in the data
